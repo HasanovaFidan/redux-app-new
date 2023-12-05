@@ -1,0 +1,142 @@
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.one__div {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.one__div :nth-child(1) {
+    outline: none;
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid purple;
+    padding-left: 10px;
+}
+
+.one__div :nth-child(2) {
+    outline: none;
+    width: 450px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid purple;
+
+}
+
+h1 {
+    font-family: Roboto Mono, monospace;
+    font-size: 30px;
+    margin-top: 70px;
+
+}
+
+span {
+    color: rgb(109, 14, 197);
+}
+
+.color {
+    display: flex;
+
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.reng {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid rgb(84, 0, 0);
+
+}
+
+.reng1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    border: 1px solid rgb(102, 6, 191);
+}
+
+.reng3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: skyblue;
+    border: 1px solid rgb(7, 155, 214);
+}
+
+.reng4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    border: 1px solid rgb(186, 174, 0);
+}
+
+.reng5 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: green;
+    border: 1px solid rgb(65, 186, 0);
+}
+
+button {
+    width: 70px;
+    height: 42px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 7px;
+    color: aliceblue;
+}
+
+.two__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+.dlex{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.search {
+    padding-top: 10px;
+}
+
+.search input {
+
+    outline: none;
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid purple;
+
+}
+
+.rengo {
+    display: flex;
+    gap: 9px;
+}
+
+.colors {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
